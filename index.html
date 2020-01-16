@@ -21,21 +21,32 @@
     <br>
 
     <label>
-        <input type="radio" name="rps" value="rock" style="display:none">
-        <span>Rock</span>
+        <input type="radio" name="rps" value="rock">
+        <img src=rock>
     </label>
 
     <label>
-        <input type="radio" name="rps" value="paper" style="display:none">
-        <span>Paper</span>
+        <input type="radio" name="rps" value="paper">
+        <img src=paper>
     </label>
 
     <label>
-        <input type="radio" name="rps" value="scissors" style="display:none">
-        <span>Scissors</span>
+        <input type="radio" name="rps" value="scissors">
+        <img src=scissors>
     </label>
 
     <button id="button">Shoot!</button>
+
+    <div id="scoreDisplay" class="hidden">
+       <p>Number of Wins:<span id="numOfWins"></span></p> 
+        <p>Number of Losses:<span id="numOfLosses"></span></p>
+        <p>Number of Draws:<span id="numOfDraws"></span></p>
+    </div>
+    <div id="outcomeDisplay" class="hidden">
+        <span id="yourScore"></span>
+        <br>
+        <span id="computerScore"></span>
+    </div>
 
  <footer>Footer for now</footer>   
     <script type="module" src="app.js"></script>

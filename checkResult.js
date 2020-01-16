@@ -14,3 +14,8 @@ export default function checkResult(player, computer) {
     } else return 'draw';
 } 
 // when player = input and computer = throw
+
+// to make dry
+ // create septerate if statement for draw
+ // then if and else ifs for just wins 
+ // then else loss
