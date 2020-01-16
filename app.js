@@ -23,10 +23,7 @@ playButton.addEventListener('click', () => {
     const playerChoice = playerInput.value;
     const computerChoice = getRandomThrow();
     const outcome = checkResult(playerChoice, computerChoice);
-    console.log('player', playerChoice);
-    console.log('comp', computerChoice);
-    console.log('result', outcome);
-
+    
     if (outcome === 'win') {
         wins++;
         numOfWins.textContent = wins;
